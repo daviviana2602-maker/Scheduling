@@ -59,7 +59,7 @@ python main.py
 
 # 🧭 How to Use
 
- Menu Options
+- Menu Options
 
 1. **Schedule Appointment** – Enter appointment details, date, and optional note.
 2. **Cancel Appointment** – Cancel a scheduled appointment with a reason.
