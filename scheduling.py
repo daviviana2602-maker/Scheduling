@@ -422,7 +422,7 @@ def option_5():   # check tables
                 else:
                     return
 
-            print(f'\n{Fore.CYAN}================== TABELA {table_class.__tablename__.upper()} =================={Style.RESET_ALL}')
+            print(f'\n{Fore.CYAN}================== TABLE {table_class.__tablename__.upper()} =================={Style.RESET_ALL}')
             print(f'{start_date} <-----> {end_date}')
                 
                 
