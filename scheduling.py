@@ -178,7 +178,7 @@ def option_2(): # cancel appointment
 
 
         date = fm.input_date(
-                msg = 'enter the cancel date: ',
+                msg = 'Enter the scheduled date: ',
                 error_msg = 'invalid date. Use DD/MM/YYYY',
                 use_color = True
         )
