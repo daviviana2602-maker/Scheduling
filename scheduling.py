@@ -12,8 +12,11 @@ from tabulate import tabulate   # print a beautiful table
 from colorama import init, Fore, Style    # colors
 init()
 
+from dotenv import load_dotenv
+import os
 
-DATABASE_URL = # postgresql+psycopg2://usuario:senha@localhost:5432/your_database
+load_dotenv()
+DATABASE_URL = os.getenv("DATABASE_URL")
 
 
 engine = create_engine(DATABASE_URL)   # connect with the database
